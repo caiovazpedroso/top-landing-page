@@ -16,8 +16,8 @@ body {
 }
 
 .content > *, .header, .footer {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .logo {
@@ -53,7 +53,8 @@ img {
 }
 
 .herocontainer {
-    padding: 100px 15%;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #1F2937;
     display: flex;
     gap: 20px;
@@ -70,8 +71,6 @@ img {
 }
 
 .secondary {
-    padding-top: 8px;
-    padding-bottom: 8px;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -80,6 +79,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
 }
 
 .content {
@@ -105,7 +105,7 @@ img {
 
 .quotebox {
     background-color: #e5e7eb;
-    padding: 100px 250px;
+    padding: 100px 270px;
 }
 
 .quote {
@@ -135,7 +135,7 @@ img {
 .boxes {
     display: flex;
     justify-content: space-between;
-    padding: 100px 300px;
+    padding: 0px 300px 100px 300px;
     flex-grow: 0;
 }
 
@@ -184,7 +184,8 @@ li {
 }
 
 .final {
-    padding: 80px 300px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .banner {
@@ -193,11 +194,13 @@ li {
     justify-content: space-evenly;
     background-color: #3882f6;
     border-radius: 6px;
-    height: 30px;
-    flex-grow: 0;
+    height: 60px;
+    align-items: center;
 }
 
 .banner button{
     outline: 2px solid white;
+    height: 30px;
 }
+
 
